@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
 
 const theme = {
   colors: {
-    primary: '#202020',
+    primary: '#fe2c55',
   },
 }
 
