@@ -16,7 +16,6 @@ export async function getServerSideProps(context) {
   /*
   * Implementar as buscas dos dados no MongoDB
   */
-
   const db = await openDB()
   const data = await db.collection('feed').find().toArray()
   /* const data = [
