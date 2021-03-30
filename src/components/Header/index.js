@@ -5,8 +5,8 @@ function Header() {
         <Container>
             <Container.Content>
                 <Container.LogoContainer>
-                    <Container.LogoIcon src="/images/logoIcon.svg"></Container.LogoIcon>
-                    <Container.Logo src="/images/logo.svg"></Container.Logo>
+                    <Container.LogoIcon src="/images/logoIcon.png"></Container.LogoIcon>
+                    <Container.Logo src="/images/logo.png"></Container.Logo>
 
                  </Container.LogoContainer>   
                  

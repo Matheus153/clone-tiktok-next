@@ -112,6 +112,11 @@ export const VideoContainer = styled.div`
       visibility: visible;
     }
   }
+  @media screen and (max-width: 750px) {
+    width: 500px;
+    align-items: center;
+    justify-content: center
+  }
 `;
 export const Video = styled.video`
   max-width: 100%;
@@ -128,6 +133,9 @@ export const Actions = styled.div`
   align-items: center;
   padding: 0 10px;
   margin-top: 12px;
+  @media screen and (max-width: 750px) {
+    margin-left: 10%;
+  }
 `;
 
 export const Action = styled.div`
