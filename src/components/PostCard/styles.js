@@ -115,6 +115,12 @@ export const VideoContainer = styled.div`
       visibility: visible;
     }
   }
+  @media (max-width: 600px) {
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+  }
 `;
 export const Video = styled.video`
   max-width: 100%;
