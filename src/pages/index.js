@@ -1,5 +1,4 @@
 import Layout from '../components/Layout'
-import Head from 'next/head'
 import Feed from '../components/Feed'
 import Sugestion from '../components/Sugestion'
 import { openDB } from '../lib/openDB'

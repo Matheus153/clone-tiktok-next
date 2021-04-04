@@ -80,15 +80,15 @@ function PostCard({ post }) {
       </Content>
       <Actions>
         <Action>
-          <img src='/images/heartIcon.svg'></img>
+          <img src='/images/heart1.png'></img>
           <a>{post?.likes}</a>
         </Action>
         <Action>
-          <img src='/images/bubbleIcon.svg'></img>
+          <img src='/images/comment.png'></img>
           <a>{post?.comments}</a>
         </Action>
         <Action>
-          <img src='/images/arrowIcon.svg'></img>
+          <img src='/images/arrowright.png'></img>
           <a>{post?.replies}</a>
         </Action>
       </Actions>
