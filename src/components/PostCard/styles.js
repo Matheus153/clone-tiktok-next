@@ -145,7 +145,7 @@ export const Actions = styled.div`
   align-items: center; // Padrão Instagram das ações
   padding: 0 10px;
   margin-top: 12px; */
-  @media screen and (max-width: 750px) {
+  @media (max-width: 750px) {
     margin-right: 10%;
     margin-top: 30%
   }
