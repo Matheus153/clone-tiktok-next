@@ -67,6 +67,7 @@ function PostCard({ post }) {
             ref={videoRef}
             src={post?.videoUrl}
             webkit-playsinline='true'
+            fullscreen='true'
             playsinline=''
             loop='true'
             preload='metadata'

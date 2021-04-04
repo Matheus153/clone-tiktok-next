@@ -122,8 +122,8 @@ export const Video = styled.video`
 `;
 
 export const PlayerIcon = styled.img`
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 `;
 
 export const Actions = styled.div`
