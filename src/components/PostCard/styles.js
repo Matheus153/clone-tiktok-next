@@ -148,7 +148,8 @@ export const Actions = styled.div`
   padding: 0 10px;
   margin-top: 12px; */
   @media (max-width: 750px) {
-    margin-top: 30%
+    margin-top: 60%;
+    left: -10vh;
   }
 `;
 
