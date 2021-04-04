@@ -114,9 +114,6 @@ export const VideoContainer = styled.div`
     ${ActionsContainer} {
       visibility: visible;
     }
-  @media (max-width: 600px) {
-    width: 100%
-  } 
   }
 `;
 export const Video = styled.video`
@@ -125,8 +122,8 @@ export const Video = styled.video`
 `;
 
 export const PlayerIcon = styled.img`
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 `;
 
 export const Actions = styled.div`
@@ -144,10 +141,7 @@ export const Actions = styled.div`
   align-items: center; // Padrão Instagram das ações
   padding: 0 10px;
   margin-top: 12px; */
-  @media (max-width: 750px) {
-    margin-right: 10%;
-    margin-top: 30%
-  }
+ 
 `;
 
 export const Action = styled.div`
