@@ -115,8 +115,7 @@ export const VideoContainer = styled.div`
       visibility: visible;
     }
   @media (max-width: 600px) {
-    position: absolute;
-    margin: 0;
+    width: 100%
   } 
   }
 `;
