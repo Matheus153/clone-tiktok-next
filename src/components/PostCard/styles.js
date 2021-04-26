@@ -141,7 +141,7 @@ export const Actions = styled.div`
   width: 48px;
   font-size: 13px;
   float: right;
-  left: -16vh;
+  margin-right: 15%;
   top: 22vw;
   /* display: flex;
   align-items: center; // Padrão Instagram das ações
@@ -149,7 +149,7 @@ export const Actions = styled.div`
   margin-top: 12px; */
   @media (max-width: 750px) {
     margin-top: 60%;
-    left: -10vh;
+    
   }
 `;
 
