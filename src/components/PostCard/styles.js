@@ -128,8 +128,8 @@ export const Video = styled.video`
 `;
 
 export const PlayerIcon = styled.img`
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 `;
 
 export const Actions = styled.div`
